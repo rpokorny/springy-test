@@ -1,0 +1,29 @@
+html, body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.root {
+    height: 100%;
+    width: 100%;
+}
+
+.edges {
+    stroke: black;
+}
+
+.nodes text {
+    text-anchor: middle;
+}
+
+.nodes tspan {
+    alignment-baseline: middle;
+}
+
+.nodes rect {
+    fill: #ddd;
+    stroke: black;
+}
